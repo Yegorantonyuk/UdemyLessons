@@ -1,5 +1,3 @@
-'use strict';
-
 //Данный пример не работает с 'use strict',
 /* a = 5;
 console.log(a); */
@@ -41,7 +39,7 @@ console.log(second);
      isMarried: false
  };
  console.log(person.name);
- console.log(person["age"]);
+ console.log(person["age"]); //"jshint" советует первый вариант с применением точки
  
  //Спец.объект -> Array(Массив[])---->
  let arr = ['plum.png','orange.jpg','apple.bmp'];
