@@ -100,6 +100,42 @@ console.log(start || done);
 значение true изменится на false */
 console.log(!start || !done);
  
+//Условия if(){}----------------------------->
+if(2*4 == 7){
+    console.log("Верно");
+} else{
+    console.log("Неверно");
+}
+
+//Вложенные условия--------------------------> 
+let num = 50;
+if (num < 49){
+    console.log("Мало");
+} else if (num > 51){
+    console.log("Много");
+} else{
+    console.log("Верно");
+};
+
+//Тернарный оператор------------------------->
+(num == 50) ? console.log("Верно") : console.log("Неверно");
+
+//Switch (более удобен для большого колличества условий)
+switch (num) {
+    case num < 49:
+        console.log("Неверно");
+        break;
+    case num > 51:
+        console.log("Неверно");
+        break;
+    case num = 50:
+        console.log("Verno");
+        break;   
+    default:
+        console.log("something wrong");
+        break;    
+}
+
 
 
 
