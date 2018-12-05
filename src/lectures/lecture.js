@@ -136,6 +136,24 @@ switch (num) {
         break;    
 }
 
+/* while (num < 55) {
+    console.log(num);
+    num++;
+} */
+
+do {
+    console.log(num);
+    num++;
+}
+while (num < 55);
+
+for (let i = 1; i < 8; i++){
+    if (i == 6){
+        break; //Прерывание цикла  результат: 1, 2, 3, 4, 5
+        continue; // Продолжить цикл после i==6
+    }
+    console.log(i);
+}
 
 
 
